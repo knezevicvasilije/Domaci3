@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script src="script.js" defer></script>
+    <title>Game lister</title>
+  </head>
+  <body>
+    <div class="header"><h2>Gamezzz List</h2></div>
+    <div class="list-games">
+      <div id="inputText">
+        <input type="text" name="Search for games..." id="" />
+      </div>
+      <div>
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="radio-buttons">
+        <div>
+          <input type="radio" name="search" id="name" /><label for="name">Name</label>
+        </div>
+        <div>
+          <input type="radio" name="search" id="genre" /><label for="genre"
+            >Genre</label>
+        </div>
+      </div>
+      <div>
+        <select name="rating" id="rating">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+    <div class="main">
+      <div class="grid-container"></div>
+      <div class="button-container">
+        <button id="load-more">Load More</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+        integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    
+    <title>BudgetApp</title>
+    
+  </head>
+  <body>
+    <div class="first-section">
+      <div class="budget-container">
+        <div class="budget-header"><h3>Available Budget in <span id="monthSpan">September</span></h3></div>
+        <div class="available-budget">0</div>
+
+        <div id="income" class="money-box">
+            <p>INCOME</p>
+            <p>0</p>
+        </div>
+        <div id="expenses" class="money-box">
+            <p>EXPENSES</p>
+            <p>0</p>
+            <div class="expensePercentege">0%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="second-section">
+        <div class="item-adder-container">
+            <div class="toggler"><p>+</p><div class="toggler-icons"><i class="fas fa-sort-up"></i><i class="fas fa-sort-down"></i></div></div>
+            <div class="add-item">
+                <input type="text" id="item-desc" placeholder="Add description" required>
+                <input type="text" id="item-value" placeholder="Value" required>
+            </div>
+            <button>
+                <i class="far fa-check-circle"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="third-section">
+        <div class="statistics-container">
+            <ul class="left side">
+                <h4>INCOME</h4>
+
+            </ul>
+            <ul class="right side">
+                <h4>EXPENSES</h4>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>

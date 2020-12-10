@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d96c864795.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+<div class="inputDiv">
+    <input type="text"  id="searchGamee" placeholder="Type here">
+    <button type="button" id="searchBtn">Search</button>
+<div class="radioN">
+    <input type="radio" name="search" id="nameRadio" checked>
+<label for="nameRadio">Name</label>
+</div>
+<div class="radioG">
+<input type="radio" name="search" id="genreRadio">
+<label for="genreRadio">Genre</label>
+</div>
+<select name="grade" id="grade">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+   
+</div>
+  <div class="listOfGames">
+  
+   <table  id="gamesList">
+     
+   </table>
+  </div>
+   <button type="button" id="loadMore">Load More</button>
+    </div>
+
+<!--JAVASCRIPT--------------------------------------------------------->
+    <script src="app.js">
+    </script>
+</body>
+</html>
